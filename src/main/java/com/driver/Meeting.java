@@ -2,11 +2,7 @@ package com.driver;
 
 import java.time.LocalTime;
 
-public class Meeting {
-    private LocalTime startTime;
-    private LocalTime endTime;package com.driver;
 
-import java.time.LocalTime;
 
     public class Meeting {
         private LocalTime startTime;
@@ -26,9 +22,6 @@ import java.time.LocalTime;
 
     }
 
-    public Meeting(LocalTime startTime, LocalTime endTime){
-        this.startTime = startTime;
-        this.endTime = endTime;
-    }
 
-}
+
+
